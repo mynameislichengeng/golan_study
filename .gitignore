@@ -1,0 +1,40 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+doc/private
+.mvn
+189.analyze.tar.gz
+248.analyze.tar.gz
+101.201.76.145.analyze.tar.gz
+60.205.58.195.analyze.tar.gz
+
+analyze-exec.sh
+analyze.sh
+
+dump.rdb
+
+.DS_Store
+
+~$*.docx
