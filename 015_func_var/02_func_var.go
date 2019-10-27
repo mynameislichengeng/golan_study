@@ -2,14 +2,17 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("你好")
-}
-/**
-1 函数变量，可以作为函数的形参
-2 函数变量，可以作为函数的返回值
+/*
+ 函数,可以作为函数的形参
  */
+func main() {
+	myDo(func(name string) {
+		fmt.Println(name)
+	})
+}
 
-func b_1()  {
-	
+
+func myDo(args func(name string)){
+	fmt.Println("执行myDo函数")
+	args("smaling")
 }
